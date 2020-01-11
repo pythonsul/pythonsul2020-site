@@ -1,14 +1,14 @@
-PyCaxias
+Python Sul 2020
 ============
 
-[pycaxias.org](http://pycaxias.org)
+[pythonsul.org](http://pythonsul.org)
 
 Projeto Pelican para criação so site pycaxias!
 
 # Ambiente
 ```shell
-git clone git@github.com:RedeNeural/PyCaxias.git;
-cd PyCaxias
+git clone git@github.com:pythonsul/pythonsul2020-site.git;
+cd pythonsul2020-site
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
