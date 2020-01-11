@@ -3,7 +3,7 @@ Python Sul 2020
 
 [pythonsul.org](http://pythonsul.org)
 
-Projeto Pelican para criação so site pycaxias!
+Projeto Pelican para criação so site da Python Sul 2020!
 
 # Ambiente
 ```shell
