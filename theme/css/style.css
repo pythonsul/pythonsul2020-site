@@ -127,6 +127,14 @@ h6 {
   margin-bottom: 10px;
 }
 
+.section-header h3 {
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .section-header p {
   text-align: center;
   padding: 0;
@@ -1108,6 +1116,62 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# tickets Section
+--------------------------------------------------------------*/
+
+#tickets {
+  padding: 60px 0;
+}
+
+#tickets .supporters-wrap {
+  border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  margin-bottom: 30px;
+}
+
+#tickets .supporter-logo {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.5);
+  height: 160px;
+}
+
+#tickets .supporter-logo:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#tickets img {
+  transition: all 0.4s ease-in-out;
+}
+
+#tickets a {
+  background: #148c4e;
+  padding: 15px;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+#tickets a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
 # F.A.Q Section
 --------------------------------------------------------------*/
 
@@ -1210,7 +1274,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe button:hover {
-  background: #148c4e;
+  background: #dd2525;
 }
 
 /*--------------------------------------------------------------
