@@ -13,7 +13,9 @@ PLUGINS = ['sitemap', ]
 
 SITEMAP = {
     'format': 'xml',
-    'exclude': ['tags.html', 'categories.html', 'authors.html', 'archives.html']
+    'exclude': [
+        'tags.html', 'categories.html', 'authors.html', 'archives.html'
+    ]
 }
 ARTICLE_ORDER_BY = 'date'
 TIMEZONE = 'America/Sao_Paulo'

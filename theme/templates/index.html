@@ -109,6 +109,48 @@
     </section>
 
     <!--==========================
+      Keynotes Section
+    ============================-->
+    <section id="speakers" class=" wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Keynotes</h2>
+          <div class="row" style="justify-content: center;">
+            {% for a in articles %}
+              {% if a.category == "keynotes" %}
+                <div class="col-lg-4 col-md-6">
+                  <div class="speaker">
+                    <h3>{{a.name}}</h3>
+                    <img src="{{ SITEURL }}/theme/img/speakers/{{a.image}}" alt="keynote__augusto_goulart" class="img-fluid">
+                    <div class="details">
+                      <p>{{a.title}}</p>
+                      <div class="social">
+                        {% if a.twitter %}
+                        <a href="{{a.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+                        {% endif %}
+                        {% if a.facebook %}
+                        <a href="{{a.facebook}}"><i class="fa fa-facebook"></i></a>
+                        {% endif %}
+                        {% if a.google %}
+                        <a href="{{a.google}}"><i class="fa fa-google-plus"></i></a>
+                        {% endif %}
+                        {% if a.linkedin %}
+                        <a href="{{a.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        {% endif %}
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
       Speakers Section
     ============================-->
     <section id="speakers" class="section-with-bg wow fadeInUp">
@@ -219,7 +261,7 @@
 
         <div class="section-header">
           <h2>Patrocinadores Ouro</h2>
-          <div class="row no-gutters supporters-wrap clearfix">
+          <div class="row no-gutters supporters-wrap clearfix" style="justify-content: center;">
             Entre em contato para ser o primeiro patrocinador Ouro
           </div>
         </div>
@@ -235,7 +277,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Patrocinadores Prata</h2>
-          <div class="row no-gutters supporters-wrap clearfix">
+          <div class="row no-gutters supporters-wrap clearfix" style="justify-content: center;">
             Entre em contato para ser o primeiro patrocinador Prata
           </div>
         </div>
@@ -243,9 +285,22 @@
       <div class="container">
         <div class="section-header">
           <h2>Patrocinadores Bronze</h2>
-          <div class="row no-gutters supporters-wrap clearfix">
-            Entre em contato para ser o primeiro patrocinador Bronze
+          <div class="row no-gutters supporters-wrap clearfix" style="justify-content: center;">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <div class="supporter-logo">
+                <a href="https://www.python.pro.br" target="_blank">
+                  <img src="{{ SITEURL }}/theme/img/patrocinadores/logo_pythonpro.png" class="img-fluid" alt="logo-python-pro">
+                </a>
+              </div>
+            </div>
           </div>
+          <!-- <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <a href="https://www.globo.com" target="_blank">
+                <img src="{{ SITEURL }}/theme/img/patrocinadores/logos globo-02.png" class="img-fluid" alt="logo-globo.com">
+              </a>
+            </div>
+          </div> -->
         </div>
       </div>
       <div class="container">
@@ -258,7 +313,7 @@
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <a href="https://www.novalehub.com.br" target="_blank">
-                <img src="{{ SITEURL }}/theme/img/patrocinadores/logo-novale.png" class="img-fluid" alt="logo-novale-hub">
+                <img src="{{ SITEURL }}/theme/img/patrocinadores/logo-novale-2.png" class="img-fluid" alt="logo-novale-hub" style="padding: 2rem;">
               </a>
             </div>
           </div>
@@ -266,6 +321,13 @@
             <div class="supporter-logo">
               <a href="https://associacao.python.org.br/" target="_blank">
                 <img src="{{ SITEURL }}/theme/img/patrocinadores/apyb_logo.png" class="img-fluid" alt="logo-apyb">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <a href="https://www.facebook.com/tijgs" target="_blank">
+                <img src="{{ SITEURL }}/theme/img/patrocinadores/logo-tijgs.png" class="img-fluid" alt="logo-tijgs">
               </a>
             </div>
           </div>
