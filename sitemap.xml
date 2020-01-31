@@ -5,8 +5,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.org/</loc>
-<lastmod>2020-01-24T09:33:09-00:00</lastmod>
+<lastmod>2020-01-30T21:10:04-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pythonsul.org/keynote.html</loc>
+<lastmod>2020-01-05T00:00:00-03:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -95,13 +102,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://pythonsul.org/keynote.html</loc>
-<lastmod>2020-03-14T16:30:00-03:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://pythonsul.org/encerramento.html</loc>
 <lastmod>2020-03-14T17:30:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -116,6 +116,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://pythonsul.org/category/keynotes.html</loc>
+<lastmod>2020-01-05T00:00:00-03:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://pythonsul.org/tag/horarios.html</loc>
 <lastmod>2020-03-14T17:30:00-03:06</lastmod>
 <changefreq>daily</changefreq>
@@ -125,6 +132,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://pythonsul.org/author/perceu-bertoletti.html</loc>
 <lastmod>2020-03-14T17:30:00-03:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pythonsul.org/author/python-sul.html</loc>
+<lastmod>2020-01-05T00:00:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
