@@ -60,6 +60,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Início</a></li>
           <li><a href="#about">Sobre</a></li>
+          <li><a href="#keynotes">Keynotes</a></li>
           <li><a href="#schedule">Agenda</a></li>
           <li><a href="#supporters">Patrocinadores</a></li>
           <li><a href="#contact">Contato</a></li>
@@ -111,34 +112,36 @@
     <!--==========================
       Keynotes Section
     ============================-->
-    <section id="speakers" class=" wow fadeInUp">
+    <section id="keynotes" class=" wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Keynotes</h2>
           <div class="row" style="justify-content: center;">
             {% for a in articles %}
               {% if a.category == "keynotes" %}
-                <div class="col-lg-4 col-md-6">
-                  <div class="speaker">
+                <div class="col-lg-6 col-md-6">
+                  <div class="keynote">
                     <h3>{{a.name}}</h3>
-                    <img src="{{ SITEURL }}/theme/img/speakers/{{a.image}}" alt="keynote__augusto_goulart" class="img-fluid">
+                    <img src="{{ SITEURL }}/theme/img/speakers/{{a.image}}" alt="{{a.slug}}" class="img-fluid">
                     <div class="details">
                       <p>{{a.title}}</p>
                       <div class="social">
+                        {% if a.github %}
+                        <a href="{{a.github}}" target="_blank"><i class="fa fa-github"></i></a>
+                        {% endif %}
                         {% if a.twitter %}
                         <a href="{{a.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
-                        {% endif %}
-                        {% if a.facebook %}
-                        <a href="{{a.facebook}}"><i class="fa fa-facebook"></i></a>
-                        {% endif %}
-                        {% if a.google %}
-                        <a href="{{a.google}}"><i class="fa fa-google-plus"></i></a>
                         {% endif %}
                         {% if a.linkedin %}
                         <a href="{{a.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
                         {% endif %}
+                        {% if a.facebook %}
+                        <a href="{{a.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a>
+                        {% endif %}
+                        {% if a.google %}
+                        <a href="{{a.google}}" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        {% endif %}
                       </div>
-
                     </div>
                   </div>
                 </div>
@@ -293,45 +296,49 @@
                 </a>
               </div>
             </div>
+            <!-- <div class="col-lg-3 col-md-4 col-xs-6">
+              <div class="supporter-logo">
+                <a href="https://www.globo.com" target="_blank">
+                  <img src="{{ SITEURL }}/theme/img/patrocinadores/logos globo-02.png" class="img-fluid" alt="logo-globo.com">
+                </a>
+              </div>
+            </div> -->
           </div>
-          <!-- <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://www.globo.com" target="_blank">
-                <img src="{{ SITEURL }}/theme/img/patrocinadores/logos globo-02.png" class="img-fluid" alt="logo-globo.com">
-              </a>
-            </div>
-          </div> -->
         </div>
       </div>
       <div class="container">
         <div class="section-header">
           <h2>Apoiadores</h2>
-          <!-- <div class="row no-gutters supporters-wrap clearfix">
-            Entre em contato para ser o primeiro apoiador
-          </div> -->
-        <div class="row no-gutters supporters-wrap clearfix" style="justify-content: center;">
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://www.novalehub.com.br" target="_blank">
-                <img src="{{ SITEURL }}/theme/img/patrocinadores/logo-novale-2.png" class="img-fluid" alt="logo-novale-hub" style="padding: 2rem;">
-              </a>
+          <div class="row no-gutters supporters-wrap clearfix" style="justify-content: center;">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <div class="supporter-logo">
+                <a href="http://www.novalehub.com.br" target="_blank">
+                  <img src="{{ SITEURL }}/theme/img/patrocinadores/logo-novale-2.png" class="img-fluid" alt="logo-novale-hub" style="padding: 2rem;">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <div class="supporter-logo">
+                <a href="https://associacao.python.org.br/" target="_blank">
+                  <img src="{{ SITEURL }}/theme/img/patrocinadores/apyb_logo.png" class="img-fluid" alt="logo-apyb">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <div class="supporter-logo">
+                <a href="https://www.facebook.com/tijgs" target="_blank">
+                  <img src="{{ SITEURL }}/theme/img/patrocinadores/logo-tijgs.png" class="img-fluid" alt="logo-tijgs">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <div class="supporter-logo">
+                <a href="https://salutho.com/" target="_blank">
+                  <img src="{{ SITEURL }}/theme/img/patrocinadores/salutho-200-200.jpg" class="img-fluid" alt="logo-salutho">
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://associacao.python.org.br/" target="_blank">
-                <img src="{{ SITEURL }}/theme/img/patrocinadores/apyb_logo.png" class="img-fluid" alt="logo-apyb">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://www.facebook.com/tijgs" target="_blank">
-                <img src="{{ SITEURL }}/theme/img/patrocinadores/logo-tijgs.png" class="img-fluid" alt="logo-tijgs">
-              </a>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
 
@@ -421,6 +428,7 @@
               <li><i class="fa fa-angle-right"></i> <a href="/">Início</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#about">Sobre</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="https://www.eventbrite.com.br/e/python-sul-2020-jaragua-do-sul-tickets-89422684657" target="_blank">Ingressos</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#keynotes">Keynotes</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#schedule">Agenda</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#speakers">Palestrantes</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#supporters">Patrocinadores</a></li>

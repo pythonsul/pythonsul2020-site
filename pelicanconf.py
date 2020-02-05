@@ -17,7 +17,7 @@ SITEMAP = {
         'tags.html', 'categories.html', 'authors.html', 'archives.html'
     ]
 }
-ARTICLE_ORDER_BY = 'date'
+ARTICLE_ORDER_BY = 'basename'
 TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = 'pt-br'
@@ -40,7 +40,7 @@ LINKS = (
 
 # Social widget
 SOCIAL = {
-    'instagram': '',
+    'instagram': 'https://www.instagram.com/pythonsul/',
     'twitter': 'https://www.twitter.com/pythonsul',
     'facebook': 'https://www.facebook.com/pythonsul',
 }

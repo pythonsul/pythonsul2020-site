@@ -1,9 +1,10 @@
-Title: Refatorando sua Carreira - Python Para Quem tem Contas a Pagar
-Name: Augusto Goulart
+Title: Bora conversar?
+Name: Talita Rossari
 Category: keynotes
 Tags: horarios
-Slug: keynote
-Image: augusto_goulart.jpeg
+Slug: keynote-talita-rossari
+Image: talita_2.jpg
 Date: 01/05/2020
-Twitter: https://twitter.com/gus_goulart
-LinkedIn: https://www.linkedin.com/in/augustogoulart/
+GitHub: https://github.com/talitarossari
+Twitter: https://twitter.com/talitarossari
+LinkedIn: https://www.linkedin.com/in/talitarossari/
