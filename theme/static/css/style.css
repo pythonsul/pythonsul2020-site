@@ -535,7 +535,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro p {
   color: #ebebeb;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 
 #intro .play-btn {
@@ -632,6 +633,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .about-btn:hover {
   background: #148c4e;
   color: #fff;
+}
+
+#intro img {
+  display: block;
+  width: 100%;
 }
 
 @-webkit-keyframes pulsate-btn {
