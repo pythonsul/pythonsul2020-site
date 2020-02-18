@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.org/</loc>
-<lastmod>2020-02-17T11:37:58-00:00</lastmod>
+<lastmod>2020-02-18T08:40:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -138,13 +138,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.org/category/keynotes.html</loc>
-<lastmod>2020-01-05T00:00:00-03:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://pythonsul.org/category/keynotes-.html</loc>
 <lastmod>2020-01-05T00:00:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
