@@ -4,161 +4,161 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://pythonsul.org/</loc>
-<lastmod>2020-02-18T08:41:39-00:00</lastmod>
+<loc>/</loc>
+<lastmod>2020-02-19T13:35:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/Abertura.html</loc>
+<loc>/Abertura.html</loc>
 <lastmod>2020-03-14T08:30:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/almoco.html</loc>
+<loc>/almoco.html</loc>
 <lastmod>2020-03-14T12:00:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/coffe1.html</loc>
+<loc>/coffe1.html</loc>
 <lastmod>2020-03-14T10:30:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/coffe2.html</loc>
+<loc>/coffe2.html</loc>
 <lastmod>2020-03-14T15:45:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/credenciamento.html</loc>
+<loc>/credenciamento.html</loc>
 <lastmod>2020-03-14T08:00:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/encerramento.html</loc>
+<loc>/encerramento.html</loc>
 <lastmod>2020-03-14T17:30:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/keynote-talita-rossari.html</loc>
+<loc>/keynote-talita-rossari.html</loc>
 <lastmod>2020-01-05T00:00:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/keynote-augusto-goulart.html</loc>
+<loc>/keynote-augusto-goulart.html</loc>
 <lastmod>2020-01-05T00:00:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/keynote-eduardo-mendes.html</loc>
+<loc>/keynote-eduardo-mendes.html</loc>
 <lastmod>2020-01-05T00:00:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/keynote-jessica-temporal.html</loc>
+<loc>/keynote-jessica-temporal.html</loc>
 <lastmod>2020-01-05T00:00:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/lightningtalk.html</loc>
+<loc>/lightningtalk.html</loc>
 <lastmod>2020-03-14T11:30:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/palestra1.html</loc>
+<loc>/palestra1.html</loc>
 <lastmod>2020-03-14T08:50:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/palestra2.html</loc>
+<loc>/palestra2.html</loc>
 <lastmod>2020-03-14T09:40:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/palestra3.html</loc>
+<loc>/palestra3.html</loc>
 <lastmod>2020-03-14T13:30:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/palestra4.html</loc>
+<loc>/palestra4.html</loc>
 <lastmod>2020-03-14T14:15:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/palestra5.html</loc>
+<loc>/palestra5.html</loc>
 <lastmod>2020-03-14T15:00:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/pocket.html</loc>
+<loc>/pocket.html</loc>
 <lastmod>2020-03-14T11:15:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/category/horarios.html</loc>
+<loc>/category/horarios.html</loc>
 <lastmod>2020-03-14T17:30:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/category/keynotes.html</loc>
+<loc>/category/keynotes.html</loc>
 <lastmod>2020-01-05T00:00:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/tag/horarios.html</loc>
+<loc>/tag/horarios.html</loc>
 <lastmod>2020-03-14T17:30:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/author/perceu-bertoletti.html</loc>
+<loc>/author/perceu-bertoletti.html</loc>
 <lastmod>2020-03-14T17:30:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://pythonsul.org/author/python-sul.html</loc>
+<loc>/author/python-sul.html</loc>
 <lastmod>2020-01-05T00:00:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
