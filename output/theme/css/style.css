@@ -640,6 +640,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
 }
 
+#intro a {
+  background: #9c2828;
+  padding: 7px 10px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
 @-webkit-keyframes pulsate-btn {
   0% {
     -webkit-transform: scale(0.6, 0.6);
