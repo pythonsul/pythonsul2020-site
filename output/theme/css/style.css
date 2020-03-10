@@ -649,7 +649,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease;
   outline: none;
   font-size: 14px;
-  border-radius: 8px;
+  border-radius: 7.5px;
 }
 
 @-webkit-keyframes pulsate-btn {
